@@ -9,6 +9,7 @@ export interface ContentStyleExplicit {
   paddingLeft: number;
   paddingRight: number;
   backgroundColor?: string;
+  minHeight?: number;
 }
 
 export const updateContentStyle = (
